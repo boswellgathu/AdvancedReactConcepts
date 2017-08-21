@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State Api",
+  "main": "lib/index.js",
+  "repository": "AdvancedReactConcepts/state-api",
+  "author": "boswell.gathu@andela.com",
+  "license": "MIT"
+}
