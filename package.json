@@ -6,7 +6,7 @@
   "author": "boswell.gathu@andela.com",
   "license": "MIT",
   "scripts": {
-    "start-dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "start-dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
@@ -26,6 +26,7 @@
     "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.26.0",
